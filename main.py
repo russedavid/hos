@@ -53,6 +53,7 @@ def index():
             # Hero Section
             Div(
                 Div(
+                    Img(src="/static/public/hos.png", alt="High Order Software Logo", cls="mb-3", style="max-height: 360px;"),
                     H1("High Order Software", cls="display-4 fw-bold"),
                     P("Advanced Software Solutions for Complex Business Challenges", cls="lead"),
                     P("Led by:", cls="mt-3"),
